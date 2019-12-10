@@ -22,7 +22,7 @@ if (window.Worker) {
     };
 
     stopWorker = function() {
-        myWorker.terminate();  // 终止worker
+        myworker.terminate();  // 终止worker
         console.log('terminate worker');
     };
 
